@@ -1,14 +1,14 @@
 function ProjectCard({title, description, tags}) {
     return (
-      <div>
-        <h3>{title}</h3>
+      <div className = "max-w-6xl mx-auto py-8 text-[#E0E1DD] text-left">
+        <h3 className = "text-3xl font-bold">{title}</h3>
         <p>{description}</p>
         <ul>
           {tags.map((item, index) => (
-            <li key={index}>{item}</li>
+            <li key={index}>- {item}</li>
           ))}
         </ul>
-        <button>View Project</button>
+        <button className = "border">View Project</button>
       </div>
     );
   }
