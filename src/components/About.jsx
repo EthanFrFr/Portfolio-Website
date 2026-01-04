@@ -1,7 +1,8 @@
 function About() {
     return (
-      <div className = "w-full max-w-6xl mx-auto py-8 text-[#E0E1DD] flex flex-col gap-6">
-        <h1 className = "text-3xl font-semibold text-left">
+      <div className = "w-full max-w-4xl mx-auto py-8 text-[#E0E1DD] flex flex-col gap-6">
+        
+        <h1 className = "text-4xl font-semibold text-left">
           Passionate about <span className = "italic font-bold bg-gradient-to-r from-[#415A77] to-[#778DA9] bg-clip-text text-transparent"> creating </span>
         </h1>
   
@@ -10,6 +11,7 @@ function About() {
           My passion lies in building projects that I think are cool: whether it's an app, the videogame I'm
           currently working on, or this website!
         </p>
+      
       </div>
     );
   }

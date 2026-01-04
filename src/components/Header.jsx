@@ -13,10 +13,10 @@ function Header() {
   };
 
   return (
-    <header className = "w-full py-16 text-[#E0E1DD] border-b border-gray-500">
-      <div className = "max-w-6xl mx-auto flex items-center justify-between gap-8">
+    <header className = "sticky top-0 z-50 text-lg w-full py-4 text-[#E0E1DD] border-b border-[#E0E1DD] bg-[#0D1B2A]">
+      <div className = "max-w-4xl mx-auto flex items-center justify-between gap-8">
         
-        <h1 className = "text-xl font-bold"> Ethan Kremer </h1>
+        <h1 className = "font-bold"> Ethan Kremer </h1>
 
         <p
           className = "font-normal cursor-pointer hover:text-[#E0E1DD]"
