@@ -1,17 +1,13 @@
 import Header from "./components/Header"
-import About from "./components/About"
-import SectionHeader from "./components/SectionHeader"
-import Projects from "./components/Projects"
+import Hero from "./components/Hero"
+import "./index.css"
 
-function App() {
+export default function App() {
   return (
-    <div className = "min-h-screen font-worksans bg-gradient-to-b from-[#0D1B2A] to-[#415A77]">
+    <div id = "Page" className = "style-page min-h-screen flex flex-col items-center pt-[64px]">
       <Header />
-      <About />
-      <SectionHeader title = "Projects" />
-      <Projects />
+      <Hero />
+      <div className = "mb-[2000px]"></div>
     </div>
   )
 }
-
-export default App;
