@@ -1,4 +1,4 @@
-// Variables
+// State Variables
 let currTheme = "dark"
 let currPalette = "bw"
 
